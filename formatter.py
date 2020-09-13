@@ -1,15 +1,15 @@
 from __future__ import annotations
 
-from modules.colors import (BLACK, BLUE, CYAN, GREEN, MAGENTA, RED, WHITE,
-                            YELLOW)
+from .modules.colors import (BLACK, BLUE, CYAN, GREEN, MAGENTA, RED, WHITE,
+                             YELLOW)
 
-from modules.constants import END
+from .modules.constants import END
 
-from modules.error import (InvalidColorError, InvalidStyleError,
-                           InvalidTagError)
+from .modules.error import (InvalidColorError, InvalidStyleError,
+                            InvalidTagError)
 
-from modules.styles import (BACKGROUND, BLINK, BOLD, FADED, ITALIC, STRIKE,
-                            UNDERLINE)
+from .modules.styles import (BACKGROUND, BLINK, BOLD, FADED, ITALIC, STRIKE,
+                             UNDERLINE)
 
 
 class Formatter:

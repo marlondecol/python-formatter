@@ -530,7 +530,7 @@ class Formatter:
             if len(self.__stack) != 0 and tag == self.__stack[-1]:
 
                 # ... then pop it from the stack.
-                return self.pop(string)
+                self.pop()
 
             # If no, push the tag to the format stack,...
             self.__stack.append(tag)
